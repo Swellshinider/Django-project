@@ -29,7 +29,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
 
     # Login custom
-    path('', CustomLoginView.as_view(), name=''),
+    path('login/', CustomLoginView.as_view(), name='login'),
     
     # telas do crud
     path('produtos/', ProdutoListView.as_view(), name='produto-list'),

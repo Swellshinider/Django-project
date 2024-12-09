@@ -27,7 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-LOGIN_URL = ''
+LOGIN_URL = '/login/'
 LOGIN_REDIRECT_URL = '/produtos/'
 
 # Application definition

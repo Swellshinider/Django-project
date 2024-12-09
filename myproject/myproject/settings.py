@@ -25,7 +25,9 @@ SECRET_KEY = 'django-insecure-dgi+cg=vrfk6pb&!*gn^t1q_defa9!j4yd^c_$z!qj=6g^ilb-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'swellshinider.pythonanywhere.com'
+]
 
 LOGIN_URL = '/login/'
 LOGIN_REDIRECT_URL = '/produtos/'

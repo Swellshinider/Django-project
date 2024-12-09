@@ -29,7 +29,7 @@ ALLOWED_HOSTS = [
     'swellshinider.pythonanywhere.com'
 ]
 
-LOGIN_URL = '/login/'
+LOGIN_URL = ''
 LOGIN_REDIRECT_URL = '/produtos/'
 
 # Application definition

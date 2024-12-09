@@ -6,7 +6,7 @@ from django.views.generic import ListView, DetailView, CreateView, UpdateView, D
 from .models import Produto
 
 class SuperUserRequiredMixin(LoginRequiredMixin, UserPassesTestMixin):
-    login_url = reverse_lazy('login')
+    login_url = reverse_lazy('')
     raise_exception = False  # Não lançar exceção 403
 
     def test_func(self):
